@@ -1,0 +1,155 @@
+body {
+    font-family: 'Arial', sans-serif;
+    /* background-color: #F5F5F5; */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #fff;
+    color: #3498db;
+    text-align: center;
+    padding: 1em 0;
+    border-bottom: 2px solid #ddd;
+    border-radius: 10px;
+}
+
+/* header {
+    background-color: #fff; /* Change this to your desired background color */
+    /* padding: 10px; 
+} */
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-container img {
+    max-width: 100px; /* Adjust the max-width as needed */
+    margin-right: 10px; /* Adjust margin as needed */
+}
+
+/* .header-container h1 {
+    flex-grow: 1;
+    margin: 0;
+} */
+
+h1 {
+    color: #3498db;
+    margin: 0;
+}
+
+h2 {
+    color: #3498db;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.results-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(45%, 1fr));
+    gap: 20px;
+    justify-content: center;
+}
+
+.result-item {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.result-item img {
+    width: 100%;
+    max-height: 350px;
+    /* object-fit: cover; */
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.ground-details {
+    padding: 20px;
+    text-align: center;
+}
+
+.ground-name {
+    font-size: 18px;
+    margin: 10px 0;
+    color: #333;
+}
+
+.location, .price {
+    color: #555;
+    margin: 10px 0;
+}
+
+.book-button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.book-button:hover {
+    background-color: #2980b9;
+}
+
+/* Added styling for details */
+.ground-details {
+    background-color: #f1f1f1;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.ground-name {
+    font-weight: bold;
+    color: #333;
+}
+
+.location, .price {
+    color: #777;
+}
+
+.book-button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.book-button:hover {
+    background-color: #2980b9;
+}
+
+/* Styling for search results section */
+.search-results-section {
+    padding: 20px;
+    margin-top: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+button {
+    padding: 10px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 7px;
+}
+
+button:hover {
+    background-color: #0c4266;
+}

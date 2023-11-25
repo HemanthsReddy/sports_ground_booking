@@ -1,0 +1,42 @@
+
+body{
+    padding: 50px;
+    width: 600px;
+    background-image: url("background.jpeg"); /* Replace 'path_to_your_image.jpg' with the actual path to your image */
+    background-size: cover; /* Adjusts the background image size to cover the entire viewport */
+    background-attachment: fixed;
+}
+.container{
+    
+    max-width: 100px;
+    margin: 0 auto;
+    padding: 20px 10px; 
+    box-shadow: rgba(149, 149, 149, 0.2) 0px 7px 29px 0px;
+    background-color: rgba(44, 44, 52, 0.7);
+    border-radius: 20px;
+}
+.form-group{
+    /* width: 30px; */
+    margin-bottom: 20px;
+}
+.container h2{
+    text-align: center;
+    color:white;
+}
+.center{
+    text-align: center;
+    
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}

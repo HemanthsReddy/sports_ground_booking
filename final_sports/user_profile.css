@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    width: 60%;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 2px solid #3498db; /* Blue border color */
+    border-radius: 8px; /* Rounded corners */
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid rgba(0, 0, 0, 0.1); /* Slightly translucent black color */
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.update-btn, .view-bookings-btn, .back-btn , .back-btn-logout{
+    display: block;
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.update-btn:hover, .view-bookings-btn:hover, .back-btn:hover {
+    background-color: #2980b9;
+}
+
+/* Added style for back button to position it at top left */
+.back-btn {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+
+.back-btn-logout {
+    position: absolute;
+    top: 10px;
+    left: 1400px;
+}

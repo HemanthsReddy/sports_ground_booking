@@ -1,0 +1,180 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+header {
+    background-color: #fff;
+    color: #3498db;
+    text-align: center;
+    padding: 1em 0;
+    border-bottom: 2px solid #ddd;
+    border-radius: 10px;
+}
+
+header {
+    background-color: #fff; /* Change this to your desired background color */
+    padding: 10px; /* Adjust padding as needed */
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-container img {
+    max-width: 100px; /* Adjust the max-width as needed */
+    margin-right: 10px; /* Adjust margin as needed */
+}
+
+.header-container h1 {
+    flex-grow: 1;
+    margin: 0;
+}
+
+.main-container {
+    display: flex;
+    width: 100%;
+}
+
+.image-container {
+    width: 70%;
+    padding: 20px;
+}
+
+
+
+img {
+    width: 100%;
+    max-height: 70vh;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.details-container {
+    border: 1px solid #fff;
+    border-radius: 10px;
+    margin-top: 40px;
+    width: 30%;
+    padding: 20px;
+}
+
+.location, label, input, button {
+    margin-top: 10px;
+}
+
+#book-now-btn{
+    width: 100%;
+    display: block;
+}
+
+button {
+    padding: 10px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 7px;
+}
+
+button:hover {
+    background-color: #0c4266;
+}
+
+
+/* Style for the Datepicker */
+.ui-datepicker {
+    font-size: 14px;
+}
+
+.ui-datepicker-header {
+    background-color: #4CAF50; /* Header background color */
+    color: #fff; /* Header text color */
+    border: 1px solid #ddd; /* Header border color */
+}
+
+.ui-datepicker-title {
+    color: #fff; /* Month and Year text color */
+}
+
+.ui-datepicker-calendar {
+    background-color: #fff; /* Calendar background color */
+}
+
+.ui-datepicker-calendar a {
+    color: #333; /* Calendar day text color */
+}
+
+.ui-datepicker-calendar a:hover {
+    background-color: #ddd; /* Calendar day hover background color */
+}
+
+.ui-datepicker-today {
+    background-color: #4CAF50; /* Today's background color */
+    color: #fff; /* Today's text color */
+}
+
+
+.basic-container{
+    border: 1px solid #ddd; /* Border color and style */
+    padding: 10px;
+    border-radius: 10px;
+    margin: 8px;
+}
+
+
+.timing-box {
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    margin: 5px;
+}
+
+/* .timing-box input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+} */
+
+.timing-box label {
+    display: block;
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.timing-box:hover label {
+    background-color: #0a3857;
+}
+
+/* .timing-box  input:checked + label  {
+    background-color: #094422; /* Change this color to your desired color 
+} */
+
+.timing-box input[type="checkbox"]:checked + label,
+    .timing-box label.selected {
+      background-color: #7FFF00; /* Change to the desired color */
+    }
+
+
+
+.book-container {
+    border: 1px solid #ddd; /* Border color and style */
+    padding: 10px;
+    border-radius: 10px;
+    margin: 8px;
+    
+}
+
+.book-container button{
+    display: block;
+    width: 100%;
+}
+
+.location{
+    font-size: 30px;
+    
+}
